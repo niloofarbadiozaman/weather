@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    /* background-image: url(/img/perfect-weather-with-gradient-sky-ym0nn79vhoqg34v3.webp); */
+    background:linear-gradient(135deg, #b1d6f5,#153f62,#09213c)no-repeat;
+    background-size: cover;
+}
+/* header-box-weather */
+
+.heder-box{
+    background: rgba(255, 255, 255, 0.2);
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+    align-items: center;
+}
+.boxes{
+    height: 180px;
+    border: 1px solid #525252;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 500;
+}
+.weather-icon{
+    width: 80px;
+    height: 80px;
+}
+.weather-icon1{
+    width: 180px;
+    height:200px;
+    padding-bottom:20px ;
+}
+.box1 p,.box1 span{
+    font-size: 20px;
+    font-weight: 400; 
+    padding-bottom: 5px;
+}
+.box1 h2{
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+/* info weather & location & search-bar */
+
+.container_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 20px 0 50px;
+}
+
+/* info-boxes */
+
+.info-boxes h3{
+    font-size: 20px; 
+}
+.info-boxes h3 span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.wind-humidity ,.moon ,.sun{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 2px 1px 3px #f7f1f1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.info-moon,.wind-humidity,.info-sun{
+    line-height: 2;
+}
+
+.moon,.sun{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wind-humidity{
+    display: flex;
+    justify-content: space-around;
+}
+.img-info img{
+    width: 115px;
+    height: 115px;
+}
+
+/* search-bar */
+
+.search_bar{
+    width: 610px;
+    display: flex;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+.search_bar input{
+    flex: 1;
+    margin-right: 20px;
+    border-radius:20px;
+    outline: 0;
+    border: 0;
+}
+.search_bar button{
+    padding: 12px 40px;
+    text-transform: uppercase;
+    border-radius:20px;
+    outline: 0;
+    border: 0;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+/* location */
+
+.map_location{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.map_location img{
+    width: 610px;
+    height: 375px;
+    border-radius: 10px;
+}
+
+
+
+/* container_footer */
+
+.container_footer{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    
+   
+}
+.container_footer h2{
+    color: #a06666;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 2.25;
+}
+.container_footer h3{
+    color:#B5A8D5;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.Follow-us ,.about ,.Weather_Forecast ,.Apps_Downloads{
+   justify-self: center;
+   text-align: center;
+}
+.icon-follow{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 15px;
+}
