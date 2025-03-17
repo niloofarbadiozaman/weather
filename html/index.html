@@ -16,11 +16,11 @@
         <div class="heder-box">
             <div class="boxes box1">
                 <div>
-                    <h2>25°C</h2>
-                    <p>sun/DEC 01</p>
-                    <span><img src="/img/icons8-location-100 (1).png" alt="" style="width: 20px; height: 20px;">Abadan , Iran</span>
+                    <h2 class="headertemp">temp</h2>
+                    <p class="time-date">date</p>
+                    <img src="/img/icons8-location-100 (1).png" alt="" style="width: 20px; height: 20px;"><span class="city">city,</span><span class="country">country</span>
                 </div>
-                <img src="/img/sun-200.png" alt="sun" class="weather-icon1" >
+                <img src="/img/sun-200.png" alt="sun" class="weather-icon1 iconweather" >
             </div>
             <div class="boxes box2">
                 <h2>13:00</h2>
@@ -29,12 +29,12 @@
             </div>
             <div class="boxes box3">
                 <h2>15:00</h2>
-                <img src="/img/cloudy-day-100.png" class="weather-icon">
+                <img src="/img/cloudy.png" class="weather-icon">
                 <p>20°C</p>
             </div>
             <div class="boxes box4">
                 <h2>17:00</h2>
-                <img src="/img/cloudy-day-100.png" class="weather-icon">
+                <img src="/img/cloudy.png" class="weather-icon">
                 <p>20°C</p>
             </div>
             <div class="boxes box5">
@@ -44,7 +44,7 @@
             </div>
             <div class="boxes box6">
                 <h2>15:00</h2>
-                <img src="/img/cloudy-windy.png" class="weather-icon">
+                <img src="/img/cloudy.png" class="weather-icon">
                 <p>13°C</p>
             </div>
         </div>
@@ -53,16 +53,15 @@
         <div class="container_main">
             <div class="info-boxes">
                 <div class="wind-humidity">
-                    <h3>wind:<span class="wind">7 mps</span></h3>
-                    <h3>Gusts:<span class="Gusts">15 mps</span></h3>
-                    <h3>deg:<span class="deg">291°</span></h3>
-                    <h3>Humedity:<span class="Humedity">29%</span></h3>
+                    <h3>wind:<span class="wind"></span></h3>
+                    <h3>wind-deg:<span class="deg"></span></h3>
+                    <h3>Humedity:<span class="Humedity"></span></h3>
                  </div>
                  <div class="moon">
                      <div class="info-moon">
-                         <h3>illumination:<span>1%</span></h3>
-                         <h3>moonset:<span>17:36</span></h3>
-                         <h3>Next Full Moon:<span>15 Days</span></h3>
+                        <h3>moonrise :<span class="moonrise"></span></h3>
+                        <h3>moonset :<span class="moonset"></span></h3>
+                        <h3>moon phase <span class="moon_phase"></span></h3>
                      </div>
                      <div class="img-info">
                          <img src="/img/Pngtree the surface .png" alt="">
@@ -70,9 +69,9 @@
                  </div>
                  <div class="sun">
                     <div class="info-sun">
-                        <h3>sunrise:<span>06:30</span></h3>
-                        <h3>sunset:<span>18:12</span></h3>
-                        <h3>UV INDEX:<span>3 Moderate</span></h3>
+                        <h3>Sunrise :<span class="sunrise"></span></h3>
+                        <h3>Sunset : <span class="sunset"></span></h3>
+                        <h3>solar_noon: <span class="solar_noon"></span></h3>
                     </div>
                     <div class="img-info">
                         <img src="/img/sunset sun_4726276.png" alt="">
@@ -128,5 +127,6 @@
 
 </body>
 
+<script src="/js/sript.js"></script>
 </html>
 
